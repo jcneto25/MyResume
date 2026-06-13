@@ -139,11 +139,16 @@
     }
 
     .sidebar a {
+      display: block;
       color: var(--text-secondary);
       text-decoration: none;
       font-size: 14px;
       line-height: 2;
       transition: color 0.2s ease;
+    }
+
+    .sidebar a + a {
+      margin-top: 4px;
     }
 
     .sidebar a:hover {
